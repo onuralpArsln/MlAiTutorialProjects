@@ -6,7 +6,7 @@ One of the earliest known dataset that is used for classification.
 
 Tabular data set of 4 features and 150 instances
 
-can be installed from link  
+More about can be learned from here
 https://archive.ics.uci.edu/dataset/53/iris
 
 or directly be imported with
