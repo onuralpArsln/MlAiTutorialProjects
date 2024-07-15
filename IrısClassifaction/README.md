@@ -16,7 +16,7 @@ pip install ucimlrepo
 
 from ucimlrepo import fetch_ucirepo
 
-````
+```
 # fetch dataset
 iris = fetch_ucirepo(id=53)
 
@@ -31,6 +31,6 @@ print(iris.metadata)
 print(iris.variables)
 
 
-```
 
-````
+
+```
