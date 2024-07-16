@@ -1,2 +1,5 @@
+this repo contains tutorials for ml and ai 
 
-https://medium.datadriveninvestor.com/10-machine-learning-projects-on-classification-with-python-9261add2e8a7
+i will keep updating it 
+
+and there will  be a better read me soon
