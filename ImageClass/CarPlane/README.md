@@ -28,4 +28,4 @@ data
 
 Amaç bu görüntülere bakarak verilen yeni görüntüye dair tahmin oluşturmak
 
-Projeyi en rahat şekilde çalıştırmak için colab üzerinde deneyebirsin.
+Projeyi en rahat şekilde çalıştırmak için google colab üzerinde deneyebilirsin.
