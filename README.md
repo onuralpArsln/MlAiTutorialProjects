@@ -9,22 +9,22 @@ Before diving into the tutorials, make sure you are familiar with the following:
 - **Python Libraries**: This repository focuses on Python libraries commonly used in data science. Understanding how to work with data is crucial, as data is the backbone of AI and machine learning.
 
 ## Folder Structure
-
-Artificial Intelligence Tutorial Repository
-│
-├── MathValClass
-│   ├── tutorial1.py
-│   ├── tutorial2.py
-│   └── README.md
-│
-├── ImageClass
-│   ├── dataset1.csv
-│   └── dataset2.csv
-│
-└── examples
-    ├── example1.ipynb
-    └── example2.ipynb
-
+                        
+Artificial Intelligence Tutorial Repository                        
+│                                    
+├── MathValClass                       
+│   ├── tutorial1.py                               
+│   ├── tutorial2.py            
+│   └── README.md            
+│                        
+├── ImageClass            
+│   ├── dataset1.csv            
+│   └── dataset2.csv                        
+│                        
+└── examples                        
+    ├── example1.ipynb                        
+    └── example2.ipynb                        
+                        
 ### MathValClass
 
 This folder contains projects focused on classifying numerical data using machine learning techniques. It serves as an introductory guide to classification applications.
