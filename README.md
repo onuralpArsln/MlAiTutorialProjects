@@ -8,6 +8,8 @@ Before diving into the tutorials, make sure you are familiar with the following:
 
 - **Python Libraries**: This repository focuses on Python libraries commonly used in data science. Understanding how to work with data is crucial, as data is the backbone of AI and machine learning.
 
+
+
 ## Folder Structure
                         
 Artificial Intelligence Tutorial Repository                        
