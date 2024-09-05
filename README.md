@@ -8,26 +8,32 @@ Makine öğrenmesi ve derin öğrenme teknikleri için çalışan tutorialların
 
 ## Prerequisites
 
-Eğitimlere dalmadan önce, aşağıdaki konulara aşina olduğunuzdan emin olun:
+Eğitimlere dalmadan önce, aşağıdaki konulara aşina olmanız için kaynaklar mevcut. Bunlar her çalışma için gerekli değil. Eğer istersen çalışmalara başlayıp ihtiyaç duydukça buraya dönebilirsin.
 
-- **Python Kütüphaneleri**: Bu depo, veri bilimi için yaygın olarak kullanılan Python kütüphanelerine odaklanmaktadır. Veri ile çalışmayı bilmek önemlidir çünkü veri, yapay zeka ve makine öğreniminin bel kemiğidir.
+- **learnPandas**: Datasetlerinde hareketi kolaylaştıran ve veri işlemek için çok önemli olan Pandas ile pythonda veri bilimi becerilerini kazanmayı hedefler.
+
+- **learnNumPy**: Pythonda matematiksel çalışmalar için güçlü bir kütüphanedir.
 
 ## Klasör Yapısı
 
 Yapay Zeka Eğitim Deposu  
 │  
 ├── MathValClass  
-│ ├── tutorial1.py  
-│ ├── tutorial2.py  
+│ ├── IrisClassification  
+│ ├── LogisticRegression  
 │ └── README.md  
 │  
 ├── ImageClass  
-│ ├── dataset1.csv  
-│ └── dataset2.csv  
+│ ├── CarPlane  
+│ └── CatRabbitSqrll  
 │  
-└── examples  
- ├── example1.ipynb  
- └── example2.ipynb
+├── Prerequisites
+│ ├── learnNumPy
+│ └── learnPandas  
+│  
+└── ObjectDetection  
+ ├── RoboFlowAndYolov7  
+ └── Yolov7&LocalData
 
 ### MathValClass
 
