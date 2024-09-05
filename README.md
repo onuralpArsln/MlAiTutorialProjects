@@ -1,44 +1,47 @@
-# Artificial Intelligence Tutorial Repository
+# Yapay Zeka Eğitim Deposu
 
-Welcome to the Artificial Intelligence Tutorial Repository! This repository is designed to provide various tutorials and resources to help you understand and explore the evolving methods in artificial intelligence.
+Yapay Zeka Eğitim Deposu'na hoş geldiniz! Bu depo, yapay zeka alanında gelişen yöntemleri anlamanıza ve keşfetmenize yardımcı olmak için çeşitli eğitimler ve kaynaklar sunmak üzere tasarlanmıştır.
+
+Makine öğrenmesi ve derin öğrenme teknikleri için çalışan tutorialların yanı sıra teorik bilgilerde bulabilirsin.
+
+Özellikle daha ağır iş gücü isteyen çalışmalar için colab linkleri mevcut. kesinlikle gpu kullanarak colab üzerinde çalışılmasını tavsiye ederim. Böylece ana cihazınızın limitlerine takılmadan kendi projeleriniz yapabilirsiniz. Ancak cihazının uyku moduna geçer ve colab runtimedan koparsanız dosyalarınızı kaybedeceğinizi unutmayın bu yüzden eğitim sonu verilerini mutlaka cihazınıza kaydedin.
 
 ## Prerequisites
 
-Before diving into the tutorials, make sure you are familiar with the following:
+Eğitimlere dalmadan önce, aşağıdaki konulara aşina olduğunuzdan emin olun:
 
-- **Python Libraries**: This repository focuses on Python libraries commonly used in data science. Understanding how to work with data is crucial, as data is the backbone of AI and machine learning.
+- **Python Kütüphaneleri**: Bu depo, veri bilimi için yaygın olarak kullanılan Python kütüphanelerine odaklanmaktadır. Veri ile çalışmayı bilmek önemlidir çünkü veri, yapay zeka ve makine öğreniminin bel kemiğidir.
 
+## Klasör Yapısı
 
+Yapay Zeka Eğitim Deposu  
+│  
+├── MathValClass  
+│ ├── tutorial1.py  
+│ ├── tutorial2.py  
+│ └── README.md  
+│  
+├── ImageClass  
+│ ├── dataset1.csv  
+│ └── dataset2.csv  
+│  
+└── examples  
+ ├── example1.ipynb  
+ └── example2.ipynb
 
-## Folder Structure
-                        
-Artificial Intelligence Tutorial Repository                        
-│                                    
-├── MathValClass                       
-│   ├── tutorial1.py                               
-│   ├── tutorial2.py            
-│   └── README.md            
-│                        
-├── ImageClass            
-│   ├── dataset1.csv            
-│   └── dataset2.csv                        
-│                        
-└── examples                        
-    ├── example1.ipynb                        
-    └── example2.ipynb                        
-                        
 ### MathValClass
 
-This folder contains projects focused on classifying numerical data using machine learning techniques. It serves as an introductory guide to classification applications.
+Bu klasör, makine öğrenimi teknikleri kullanarak sayısal verileri sınıflandırmaya odaklanan projeler içerir. Sınıflandırma uygulamalarına giriş niteliğindedir.
 
- ### ImageClass
+### ImageClass
 
- This folder contains projects for image classification projects. Image classification can be considered as a simple application compared to many other things you can do with AI but beware that you need to create a good data set for good results. 
+Bu klasör, görüntü sınıflandırma projelerini içerir. Görüntü sınıflandırma, yapay zeka ile yapabileceğiniz birçok şeye kıyasla basit bir uygulama olarak düşünülebilir, ancak iyi sonuçlar almak için iyi bir veri seti oluşturmanız gerektiğine dikkat edin.
 
-## Getting Started
+## Başlarken
 
-To get started with the tutorials:
+Eğitimlere başlamak için:
 
-1. Clone the repository to your local machine:
+1. Depoyu yerel makinenize klonlayın:
    ```bash
    git clone https://github.com/onuralpArsln/MlAiTutorialProjects.git
+   ```
