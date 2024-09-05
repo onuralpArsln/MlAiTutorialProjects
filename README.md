@@ -22,10 +22,10 @@ Yapay Zeka Eğitim Deposu
 ├── Prerequisites  
 │ ├── learnNumPy  
 │ └── learnPandas  
-│  
-└── ObjectDetection  
- ├── RoboFlowAndYolov7  
- └── Yolov7&LocalData
+│              
+├──ObjectDetection         
+│ ├── RoboFlowAndYolov7         
+│ └── Yolov7&LocalData         
 
 ## Prerequisites
 
