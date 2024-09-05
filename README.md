@@ -19,8 +19,8 @@ Yapay Zeka Eğitim Deposu
 │ ├── CarPlane  
 │ └── CatRabbitSqrll  
 │  
-├── Prerequisites
-│ ├── learnNumPy
+├── Prerequisites  
+│ ├── learnNumPy  
 │ └── learnPandas  
 │  
 └── ObjectDetection  
