@@ -6,14 +6,6 @@ Makine öğrenmesi ve derin öğrenme teknikleri için çalışan tutorialların
 
 Özellikle daha ağır iş gücü isteyen çalışmalar için colab linkleri mevcut. kesinlikle gpu kullanarak colab üzerinde çalışılmasını tavsiye ederim. Böylece ana cihazınızın limitlerine takılmadan kendi projeleriniz yapabilirsiniz. Ancak cihazının uyku moduna geçer ve colab runtimedan koparsanız dosyalarınızı kaybedeceğinizi unutmayın bu yüzden eğitim sonu verilerini mutlaka cihazınıza kaydedin.
 
-## Prerequisites
-
-Eğitimlere dalmadan önce, aşağıdaki konulara aşina olmanız için kaynaklar mevcut. Bunlar her çalışma için gerekli değil. Eğer istersen çalışmalara başlayıp ihtiyaç duydukça buraya dönebilirsin.
-
-- **learnPandas**: Datasetlerinde hareketi kolaylaştıran ve veri işlemek için çok önemli olan Pandas ile pythonda veri bilimi becerilerini kazanmayı hedefler.
-
-- **learnNumPy**: Pythonda matematiksel çalışmalar için güçlü bir kütüphanedir.
-
 ## Klasör Yapısı
 
 Yapay Zeka Eğitim Deposu  
@@ -35,6 +27,14 @@ Yapay Zeka Eğitim Deposu
  ├── RoboFlowAndYolov7  
  └── Yolov7&LocalData
 
+## Prerequisites
+
+Eğitimlere dalmadan önce, aşağıdaki konulara aşina olmanız için kaynaklar mevcut. Bunlar her çalışma için gerekli değil. Eğer istersen çalışmalara başlayıp ihtiyaç duydukça buraya dönebilirsin.
+
+- **learnPandas**: Datasetlerinde hareketi kolaylaştıran ve veri işlemek için çok önemli olan Pandas ile pythonda veri bilimi becerilerini kazanmayı hedefler.
+
+- **learnNumPy**: Pythonda matematiksel çalışmalar için güçlü bir kütüphanedir.
+
 ### MathValClass
 
 Bu klasör, makine öğrenimi teknikleri kullanarak sayısal verileri sınıflandırmaya odaklanan projeler içerir. Sınıflandırma uygulamalarına giriş niteliğindedir.
@@ -42,6 +42,10 @@ Bu klasör, makine öğrenimi teknikleri kullanarak sayısal verileri sınıflan
 ### ImageClass
 
 Bu klasör, görüntü sınıflandırma projelerini içerir. Görüntü sınıflandırma, yapay zeka ile yapabileceğiniz birçok şeye kıyasla basit bir uygulama olarak düşünülebilir, ancak iyi sonuçlar almak için iyi bir veri seti oluşturmanız gerektiğine dikkat edin.
+
+### ObjectDetection
+
+Bu klasör obje tespiti için yolov7 modelinin kullanımı için detaylar içerir. Bir fotoğrafı bir sınıfa yerleştirmenin ötesine geçip fotoğraf içindeki objeleri ve konumları tespit etmeni sağlar.
 
 ## Başlarken
 
