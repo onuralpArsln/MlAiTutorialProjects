@@ -8,8 +8,12 @@ Makine öğrenmesi ve derin öğrenme teknikleri için çalışan tutorialların
 
 ## Klasör Yapısı
 
-Yapay Zeka Eğitim Deposu  
-│  
+Yapay Zeka Eğitim Deposu 
+│                    
+├── Prerequisites                         
+│ ├── learnNumPy             
+│ └── learnPandas             
+│            
 ├── MathValClass  
 │ ├── IrisClassification  
 │ ├── LogisticRegression  
@@ -18,10 +22,6 @@ Yapay Zeka Eğitim Deposu
 ├── ImageClass  
 │ ├── CarPlane  
 │ └── CatRabbitSqrll  
-│  
-├── Prerequisites  
-│ ├── learnNumPy  
-│ └── learnPandas  
 │              
 ├──ObjectDetection         
 │ ├── RoboFlowAndYolov7         
