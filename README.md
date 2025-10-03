@@ -98,8 +98,25 @@ Master CNNs and modern architectures:
 - 🐱🐰🐿️ **Cat-Rabbit-Squirrel**: Multi-class classification with ResNet
 - 🐱🐶 **Cat vs Dog**: Classic computer vision challenge
 - 😊😢😡 **Facial Expression Recognition (FER)**: Emotion detection from faces (FER2013 dataset)
-- 🏗️ **Advanced Architectures**: Deep dive into CNN architectures (VGG, ResNet, etc.)
 - 🎯 **YOLOv11 Classification**: Modern classification with YOLO
+
+##### 🏗️ **ArchitecturesAdv** - Complete Model Zoo Comparison ⭐
+A comprehensive comparison of 6 cutting-edge architectures on FER2013 dataset:
+
+- 🧱 **Basic CNN**: Classic convolutional architecture baseline
+- 🔗 **ResNet**: Residual connections for deeper networks
+- 🌳 **DenseNet121**: Dense connectivity patterns
+- ⚡ **EfficientNetB0**: Compound scaling for efficiency
+- 👁️ **CNN + SE Attention**: Squeeze-and-Excitation blocks for channel attention
+- 🔮 **Vision Transformer (ViT)**: Transformer architecture for images
+
+**Features:**
+- Side-by-side performance comparison
+- FLOPs and parameter count analysis
+- Training time benchmarks
+- Visual architecture diagrams (visualkeras + plot_model)
+- Validation accuracy plots across all models
+- Random prediction comparisons
 
 #### **6-ObjectDetection** (Object Detection)
 Go beyond classification - locate objects in images:
@@ -228,8 +245,8 @@ MlAiTutorialProjects/
 
 ### 1️⃣ Clone the Repository
 
-```bash
-git clone https://github.com/onuralpArsln/MlAiTutorialProjects.git
+   ```bash
+   git clone https://github.com/onuralpArsln/MlAiTutorialProjects.git
 cd MlAiTutorialProjects
 ```
 
@@ -239,7 +256,7 @@ cd MlAiTutorialProjects
 Start here → `1-Prerequisites` → `2-MachineLearningBasics` → `3-YapayZekaTeorikBilgi` → `4-MathValClass`
 
 #### 🔥 **For Computer Vision Enthusiasts:**
-`5-ImageClass` → `6-ObjectDetection` → `9-NeuralStyleTransfer` → `10-Pix2Pix`
+`5-ImageClass` → `5-ImageClass/ArchitecturesAdv` (⭐ Model Zoo) → `6-ObjectDetection` → `9-NeuralStyleTransfer` → `10-Pix2Pix`
 
 #### 📝 **For NLP Lovers:**
 `11-TextClass` → `14-WordEmbeddings` → `13-RAG`
@@ -307,11 +324,11 @@ jupyter notebook
 5. Basic GANs
 
 ### 🌳 **Advanced (6+ months)**
-1. Advanced CNN Architectures
+1. **Architecture Model Zoo** (CNN, ResNet, DenseNet, EfficientNet, ViT comparison) ⭐
 2. Pix2Pix & Image Translation
 3. Neural Style Transfer
 4. RAG & Modern NLP
-5. Custom model architecture design
+5. Custom model architecture design & benchmarking
 
 ---
 
@@ -324,6 +341,7 @@ jupyter notebook
 | Theory | ⭐⭐ Intermediate | 1 week | Learn AI fundamentals deeply |
 | Classification | ⭐⭐ Intermediate | 2-3 weeks | Master classical ML algorithms |
 | Image Class | ⭐⭐⭐ Intermediate | 3-4 weeks | Build CNNs from scratch |
+| **Architectures Adv** | ⭐⭐⭐⭐⭐ Expert | 2-3 weeks | Compare 6 architectures scientifically |
 | Object Detection | ⭐⭐⭐⭐ Advanced | 2-3 weeks | Deploy YOLO models |
 | LSTM | ⭐⭐⭐ Intermediate | 2 weeks | Predict time series data |
 | GANs | ⭐⭐⭐⭐ Advanced | 3-4 weeks | Generate synthetic images |
@@ -335,6 +353,25 @@ jupyter notebook
 ---
 
 ## 🔥 Highlighted Projects
+
+### 🏆 **NEW: Complete Architecture Model Zoo** ⭐⭐⭐
+The ultimate deep learning architecture comparison guide!
+```
+📁 Location: 5-ImageClass/ArchitecturesAdv/architec.ipynb
+🎯 Architectures: 6 models (CNN, ResNet, DenseNet, EfficientNet, CNN+SE, ViT)
+🔬 Metrics: Parameters, FLOPs, training time, validation accuracy
+💾 Dataset: FER2013 (28,709 train + 7,178 test images)
+📊 Visualizations: Architecture diagrams, performance plots, prediction comparisons
+🎓 Perfect for: Understanding trade-offs between model complexity and performance
+```
+
+**What makes it special:**
+- 🧪 Scientific comparison with consistent methodology
+- 📊 Quantitative metrics (not just accuracy!)
+- 🎨 Beautiful architecture visualizations using visualkeras
+- 🔍 Includes modern architectures (Vision Transformers!)
+- ⚡ Performance profiling with FLOPs calculation
+- 🎯 Real-world emotion detection task
 
 ### 🎨 **Image Colorization with Pix2Pix**
 Transform black & white images to color automatically using conditional GANs!
@@ -352,12 +389,14 @@ Build a document-aware chatbot that answers questions based on your PDFs!
 💾 Includes: Turkish document processing
 ```
 
-### 😊 **Facial Expression Recognition**
-Detect emotions from facial images using deep CNNs!
+### 😊 **Facial Expression Recognition + Architecture Comparison**
+Detect emotions from facial images and compare 6 different architectures!
 ```
 📁 Location: 5-ImageClass/CNN_FER.ipynb
-🎯 Technique: CNN, Multi-class classification
-💾 Dataset: FER2013 (48x48 emotion faces)
+📁 Advanced: 5-ImageClass/ArchitecturesAdv/architec.ipynb
+🎯 Techniques: CNN, ResNet, DenseNet, EfficientNet, SE Attention, ViT
+💾 Dataset: FER2013 (48x48 grayscale emotion faces, 7 classes)
+🔬 Comparison: Parameters, FLOPs, training time, validation accuracy
 ```
 
 ### 🎯 **YOLOv11 Object Detection**
@@ -429,6 +468,15 @@ State-of-the-art real-time object detection and localization!
 
 ---
 
+## ⚡ What's New & Hot
+
+- 🆕 **Complete Model Zoo**: Compare 6 architectures side-by-side on FER2013!
+- 🔮 **Vision Transformers**: Learn the latest in image classification
+- 🎯 **Attention Mechanisms**: Squeeze-and-Excitation blocks explained
+- 📊 **Scientific Benchmarking**: Not just accuracy - FLOPs, params, and time!
+
+---
+
 ## 💡 Pro Tips
 
 ### 🚀 **Performance Tips**
@@ -497,9 +545,11 @@ This repository is created for educational purposes. Feel free to use the code f
 - 📂 **14+ Major Topics**
 - 📓 **50+ Jupyter Notebooks**
 - 🎯 **10+ Different Datasets**
-- 💻 **Multiple ML/DL Frameworks**
+- 🏗️ **6 Architecture Comparison** (CNN, ResNet, DenseNet, EfficientNet, SE, ViT)
+- 💻 **Multiple ML/DL Frameworks** (TensorFlow, PyTorch, scikit-learn)
 - 🌐 **Colab Ready Projects**
 - 🇹🇷 **Bilingual Content** (Turkish & English)
+- 🔬 **Scientific Methodology** (FLOPs, params, benchmarking)
 
 ---
 
@@ -525,10 +575,10 @@ This repository is created for educational purposes. Feel free to use the code f
 
 | Beginner | Intermediate | Advanced |
 |----------|--------------|----------|
-| [Prerequisites](#-foundations--prerequisites) | [Image Classification](#%EF%B8%8F-computer-vision--deep-learning) | [GANs](#-advanced-deep-learning) |
-| [ML Basics](#-classification--machine-learning) | [Object Detection](#%EF%B8%8F-computer-vision--deep-learning) | [Pix2Pix](#-advanced-deep-learning) |
-| [Theory](#-foundations--prerequisites) | [LSTM](#-advanced-deep-learning) | [RAG](#-natural-language-processing) |
-| [Classification](#-classification--machine-learning) | [Text Classification](#-natural-language-processing) | [Style Transfer](#-advanced-deep-learning) |
+| [Prerequisites](#-foundations--prerequisites) | [Image Classification](#%EF%B8%8F-computer-vision--deep-learning) | [🏆 Architecture Zoo](#-new-complete-architecture-model-zoo-) |
+| [ML Basics](#-classification--machine-learning) | [Object Detection](#%EF%B8%8F-computer-vision--deep-learning) | [GANs](#-advanced-deep-learning) |
+| [Theory](#-foundations--prerequisites) | [LSTM](#-advanced-deep-learning) | [Pix2Pix](#-advanced-deep-learning) |
+| [Classification](#-classification--machine-learning) | [Text Classification](#-natural-language-processing) | [RAG](#-natural-language-processing) |
 
 ---
 
